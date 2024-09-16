@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            display: flex;
+        }
+        .box2{
+            display: flex;
+        }
+        .box3{
+            display: flex;
+        }
+        .container{
+            border: 3px solid  black;
+            border-radius: 5px;
+            background-color: rgb(120, 152, 73);
+
+            height: 330px;
+            width: 400px;
+
+           
+        }
+        .create{
+            margin-top: 10px;
+            align-items: center;
+        }
+        .reset{
+            margin-top: 10px;
+        }
+        .img{
+            margin: 20px;
+           
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div class="container" >
+    <div class="box1">
+        <div>
+            <input type="text" value="Receipt no:">
+        </div>
+    
+        <div class="img">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/6/319605360/SS/CX/HM/781420/logo-design-service-1000x1000.jpg"  height="100px" width="100px">
+        </div>
+    </div>
+    <div class="box2">
+        <b>From</b><br>
+        <div>
+            <p>Name:<input type="text" name="name"></p>
+            <p>Email:<input type="text" name="email"></p>
+            <p>Address:<input type="text" name="address"></p>
+            <p>Phone:<input type="number" name="name"></p>
+            <p>date:<input type="date" name="name"></p>
+
+        </div>
+        <b>Bill to</b><br>
+        <div>
+            <p>Name:<input type="text" name="name"></p>
+            <p>Email:<input type="text" name="email"></p>
+            <p>Address:<input type="text" name="address"></p>
+            <p>Phone:<input type="number" name="name"></p>
+        </div>
+       
+    </div>
+    <div class="box3">
+        <div class="create"> <input type="submit" value="create" ></div>
+        <div class="reset"><input type="submit" value="Reset" ></div>
+    </div>
+</div>
+</div>
+
+    <script src="form.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-let oldValue = "";
+ let oldValue = "";
 function komal(){
     oldValue = document.getElementById("displayScreen").value;
     document.getElementById("displayScreen").value = eval(oldValue);
